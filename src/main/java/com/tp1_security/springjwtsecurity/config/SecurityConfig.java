@@ -26,7 +26,6 @@ import org.springframework.security.oauth2.jwt.NimbusJwtEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import javax.crypto.spec.SecretKeySpec;
 
-@Data
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity(prePostEnabled = true)
